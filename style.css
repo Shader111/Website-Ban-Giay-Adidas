@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* TOP BAR */
+.topbar {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* NAV */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  font-size: 20px;
+}
+
+/* SEARCH */
+.search-box {
+  position: right;
+  margin-right: 10px;
+}
+
+.search-box input {
+  padding: 10px 1px 10px 15px;
+  border: 4px solid #cccccca0;
+}
+
+/* BANNER */
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.banner h1 {
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* SECTION */
+.section {
+  padding: 40px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* GRID */
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.card img {
+  width: 100%;
+  background: #dbd8e1;
+}
+
+.card p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* PRODUCT */
+.product {
+  background: #fff;
+  padding: 10px;
+}
+
+.product img {
+  width: 100%;
+  background: #dcd3ff;
+}
+
+.product h3 {
+  margin-top: 10px;
+}
+
+.product p {
+  color: rgb(0, 0, 0);
+}
+
+/* BACKGROUND PURPLE */
+.bg-purple {
+  background: #f2ecff;
+}
+
+/* PROMO */
+.promo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.promo img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* FOOTER */
+footer {
+  background: black;
+  color: white;
+  padding: 40px;
+  text-align: left;
+}
+/* Thiết lập chung cho nền đen chữ trắng */
+.adidas-container {
+  background-color: #000;
+  color: #fff;
+  padding: 40px;
+  max-width: 1920px;
+  line-height: 1.6;
+}
+
+/* Kiểu dáng cho Tiêu đề (Gần giống Adineue PRO) */
+.adidas-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;      
+  margin-bottom: 30px;
+}
+
+
+.adidas-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;        
+  text-align: left;        
+  margin-bottom: 20px;
+  color: #eee;             
+  max-width: 100%;
+}
+/* TOP BAR */
+.promo-bar {
+  background-color: #4cbc8a; 
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.promo-container {
+  display: flex;
+  align-items: center;    
+  gap: 40px;              
+}
+
+.promo-text {
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;       
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.promo-button {
+  background-color: #ffffff;
+  color: #0f6e38;
+  text-decoration: none;
+  padding: 12px 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s;
+}
+
+.promo-button:hover {
+  background-color: #eeeeee; 
+  color: #000;
+}
+.footer-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+/* ICON BÊN NGOÀI */
+.icon-img {
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  cursor: pointer;
+  gap: 40px;
+  transition: 0.2s;
+  margin-left: 30px;
+}
